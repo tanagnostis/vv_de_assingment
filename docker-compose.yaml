@@ -1,4 +1,4 @@
-version: '2'
+version: '1'
 services:
   postgresdb:
     image: postgres
@@ -23,7 +23,7 @@ services:
 
   metabase:
     image: metabase/metabase:latest
-    container_name: viva_cards25
+    container_name: metabase_viva
     ports:
       - 3000:3000
     depends_on:
