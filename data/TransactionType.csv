@@ -1,0 +1,13 @@
+TransactionTypeId;Name
+00;Purchase
+01;ATM Cash Withdrawal
+09;Purchase with Cash Back
+12;Cash Disbursement
+18;Unique Transaction
+19;Fee Collection (Credit to Transaction Originator)
+20;Credit (Purchase Return)
+28;Payment Transaction
+29;Fee Collection (Debit to Transaction Originator)
+30;Balance Inquiry
+91;PIN Unblock
+92;PIN Change
